@@ -7,16 +7,16 @@ import { ItemListContainer } from './components/ItemListContainer/ItemListContai
 
 function App() {
 
-  const profesor = {
-    nombre: 'Conrado Lanusse',
-    rol: 'Profesor de React JS'
+  const cliente = {
+    nombre: 'Juan Jose',
+    rubro: 'Materiales Electricos'
   }
 
   return (
     <div>
         <Navbar/>
 
-        <ItemListContainer nombre={profesor.nombre}/>
+        <ItemListContainer nombre={cliente.nombre}/>
         
     </div>
   );
